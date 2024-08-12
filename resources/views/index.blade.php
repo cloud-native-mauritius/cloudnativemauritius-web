@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <section class="mt-8 max-w-4xl mx-auto mb-16">
+    <section class="mt-8 max-w-4xl mx-auto">
 
         <h2 class="ml-6 text-md text-slate-700 font-bold uppercase">Upcoming Event</h2>
 

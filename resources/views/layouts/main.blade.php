@@ -14,5 +14,6 @@
     <body class="font-sans antialiased bg-[#93EAFF]">
         @include('layouts.header')
         @yield('content')
+        @include('layouts.footer')
     </body>
 </html>
