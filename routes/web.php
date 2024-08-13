@@ -3,5 +3,6 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('index');
+    $events = App\Models\Event::all();
+    return view('index', compact('events'));
 });
